@@ -1,0 +1,33 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(135deg, #222 0%, #333 100%);
+  color: #fff;
+  font-family: 'Orbitron', Arial, sans-serif;
+}
+.gravity-gone-bg {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  position: absolute;
+  top: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 20px #0f0, 0 0 40px #0ff;
+}
+.subtitle {
+  position: absolute;
+  top: 18vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  opacity: 0.8;
+}

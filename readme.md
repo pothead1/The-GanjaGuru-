@@ -1,10 +1,6 @@
- 
-
 # Project Name
 
- 
-The GanjaGuru 
-
+The GanjaGuru
 ### Description
 
 **Tagline:**
